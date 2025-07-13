@@ -20,7 +20,7 @@ const userSchema = new  Schema(
         fullName : {
             type : String, 
             required : true,
-            tirm : true,
+            trim : true,
         },
         avatar : {
             type : String // url from cloudinary
